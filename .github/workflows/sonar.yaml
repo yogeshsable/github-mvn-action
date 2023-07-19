@@ -3,8 +3,6 @@ on:
   # a pull request. 
   push:
     branches:
-      - master
-      - main
       - sonar
   pull_request:
       types: [opened, synchronize, reopened]
