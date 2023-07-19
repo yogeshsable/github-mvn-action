@@ -21,6 +21,6 @@ jobs:
     - name: SonarQube Scan
       uses: kitabisa/sonarqube-action@v1.2.0
       with:
-        host: ${{ secrets.SONARQUBE_HOST }}
-        login: ${{ secrets.SONARQUBE_TOKEN }}
+        host: http://3.108.237.179:9000/
+        login: 2ed44c577a5ce5f62bba03aee6001f63e3627c53
         projectkey: Github-Action-Scan
